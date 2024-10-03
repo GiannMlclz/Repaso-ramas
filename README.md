@@ -20,6 +20,20 @@ git status
 
 ```sh
 git add <nombre-archivo>
-git add <nombre-archivo> <nombre-archivo>      <nombre-archivo>
+git add <nombre-archivo> <nombre-archivo> <nombre-archivo>
 git add . # agrega todos los archivos que tengo en el working directory (WD)
+```
+
+2. hago el commit
+
+```sh
+git commit -m "mensaje descriptivo"
+```
+
+# Cambiar el editor por nano
+
+```sh
+git config --global core.editor nano
+git config --global core.editor "code --wait"
+```
 
