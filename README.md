@@ -48,3 +48,11 @@ git remote add origin git remote add origin https://github.com/GiannMlclz/Repaso
 
 ```sh
 git remote -v
+```
+
+# Subo el remoto el repositorio local
+
+```sh
+git push -u origin main # la primera vez
+git push
+```
