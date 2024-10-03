@@ -37,3 +37,14 @@ git config --global core.editor nano
 git config --global core.editor "code --wait"
 ```
 
+# agregar un remoto a mi repositorio loc
+
+```sh
+git remote add origin <url-al-repo-remoto>
+git remote add origin git remote add origin https://github.com/GiannMlclz/Repaso-ramas.git
+```
+
+# Para ver si se agrego el repo remoto
+
+```sh
+git remote -v
